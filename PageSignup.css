@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    color:white;
+    background:rgba(56,18,114,255);
+    font-family: 'Nunito Sans', sans-serif; 
+    box-sizing:border-box;
+}
+/* Top of the page */
+header{
+    padding:20px 40px;
+    background:rgba(51,16,103,255);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* main page login */
+.container{   
+    width: 650px;
+    height: 650px;
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 6%;
+    margin: 100px auto 100px auto;
+    background-color: rgb(255, 255, 255) ;
+    
+}
+
+input{
+    display: flex;
+    height: 35px;
+    width: 350px;
+    font-size: 2.5em;
+    font-style: oblique;
+    text-align: center;
+    margin: 5px auto 5px auto;
+    background:rgba(51,16,103,255);
+    margin-top: 10%;
+}
+
+.BoutonLogin{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+button {
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 6%;
+    height: 50px;
+    width: 100px
+}
+
+.Signup{
+    color:black;
+    text-align: center;
+    
+}
+::placeholder{
+    color: white;
+
+}
+
+.Choix{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 10px;
+   
+}

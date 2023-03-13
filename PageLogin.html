@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZEO_Page_Login</title>
+    <link rel="stylesheet" href="PageLogin.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>QUIZZEO</h1>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container">
+                <!-- main page with login information -->
+                <div class="Login">
+                    <h1> Connexion </h1>
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <br> 
+                    <input type="password" name="pswd" placeholder="Mot de Passe" required=""> 
+                    <br>
+                    
+                    <div class="Choix" >
+                        <p> <input type="radio" name="Choix" value="Utilisateur" required=""> Utilisateur </p>
+                        <p>  <input type="radio" name="Choix" value="Quizzeur" required=""> Quizzeur </p>
+                    </div>
+                    
+                    
+                    <!-- login and register button with the links to the appropriate page -->
+                    <div class="bouton">
+                        <form action="PageUser.html" method="post"> 
+                            <button> Se connecter </button>
+                        </form>
+                            
+                        <form action="PageSignup.html" method="post">
+                            <button> S'enregistrer </button>
+                        </form>
+                    </div>
+                
+                </div>    
+                    
+        </div>
+    </section>
+
+</body>
+</html>
+
